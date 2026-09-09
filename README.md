@@ -1,75 +1,53 @@
-# React + TypeScript + Vite
+# GIS + Relocation Module (Member 2)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React + Vite + TypeScript module for the SIH disaster-resilience platform.
+Covers: Hazard Map, Habitations, Relocation Sites, Relocation Plan.
+No backend — all data is local mock data in `src/data/mockData.ts`.
 
-Currently, two official plugins are available:
+## Run locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Open the printed local URL (usually http://localhost:5173).
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Build for production
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run build
+npm run preview
+```
+
+## Stack
+
+- React + Vite + TypeScript
+- MapLibre GL JS (Esri World Imagery satellite tiles, no API key needed)
+- Lucide React (icons)
+- Recharts (suitability radar chart, relocation progress bar chart)
+
+## Structure
 
 ```
+src/
+  components/   Sidebar, PageHeader, RiskBadge, HazardBars, LayersPanel,
+                MapLegend, SuitabilityRadar
+  data/         mockData.ts — habitations, relocation sites, relocation plan
+  pages/        HazardMap, Habitations, RelocationSites, RelocationPlan
+  mapStyle.ts   Esri satellite raster style spec
+  popupContent.ts  HTML builders for map popups
+  types.ts      Shared TypeScript types
+  utils.ts      Risk/status color + formatting helpers
+```
+
+## Notes
+
+- Hazard Map opens in satellite view by default, centered on Uttarakhand.
+- Habitation markers are colored by risk level (red/orange/yellow/green);
+  relocation sites show as blue "R" markers. Click either for a details popup.
+- The right-side Layers panel toggles hazard exposure overlays (Flood,
+  Landslide, Coastal Erosion, Cloudburst), Red Zone highlighting, and
+  relocation site marker visibility.
+- Coastal Erosion exposure is 0 for all habitations (Himalayan/inland region),
+  so toggling that layer shows no overlay — this is expected, not a bug.
