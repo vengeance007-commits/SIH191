@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { Activity, AlertTriangle, MapPin, Users, ShieldAlert, ArrowRight } from "lucide-react";
+import { Activity, AlertTriangle, MapPin, Users, ShieldAlert } from "lucide-react";
 import HazardMapView from "../components/map/HazardMapView";
 import MapControls from "../components/map/MapControls";
 import HazardLegend from "../components/map/HazardLegend";

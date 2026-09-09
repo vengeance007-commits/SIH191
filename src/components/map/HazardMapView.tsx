@@ -10,7 +10,7 @@ interface Props {
   satellite?: boolean;
 }
 
-export default function HazardMapView({visibleLayers,onSelectHabitation,onSelectSite,satellite=true}: Props) {
+export default function HazardMapView({visibleLayers,onSelectHabitation,onSelectSite}: Props) {
   const container = useRef<HTMLDivElement|null>(null);
   const mapRef = useRef<maplibregl.Map|null>(null);
 
