@@ -12,11 +12,11 @@ import { NavLink } from "react-router-dom";
 
 const navItems = [
   { label: "Dashboard", path: "/", icon: Home },
-  { label: "Hazard Map", path: "/", icon: Map },
-  { label: "Habitations", path: "/", icon: Users },
-  { label: "Relocation Sites", path: "/", icon: Shield },
+  { label: "Hazard Map", path: "/hazard-map", icon: Map },
+  { label: "Habitations", path: "/habitations", icon: Users },
+  { label: "Relocation Sites", path: "/relocation-sites", icon: Shield },
+  { label: "Relocation Plan", path: "/relocation-plan", icon: FileText },
   { label: "Analytics", path: "/analytics", icon: BarChart3 },
-  { label: "Reports", path: "/", icon: FileText },
   { label: "Settings", path: "/settings", icon: Settings },
 ];
 
