@@ -1,0 +1,740 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Thirunelly",
+        "SUB_DIST": "Mananthavady",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.03979110233125,
+          11.929866042147241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Thavinhal",
+        "SUB_DIST": "Mananthavady",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.9523316454311,
+          11.841638033793112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Mananthavady",
+        "SUB_DIST": "Mananthavady",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.99573644603772,
+          11.8256451286415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Thrissilery",
+        "SUB_DIST": "Mananthavady",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.04371424067563,
+          11.857250799121624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Padichira",
+        "SUB_DIST": "Sulthanbathery",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.19166825897807,
+          11.827546194087597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Pulpalli",
+        "SUB_DIST": "Sulthanbathery",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.1265835121739,
+          11.806230526385862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Periya",
+        "SUB_DIST": "Mananthavady",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.86865010970416,
+          11.82355796236688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Payyampally",
+        "SUB_DIST": "Mananthavady",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.0593341610289,
+          11.805797242765268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Valat",
+        "SUB_DIST": "Mananthavady",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.91338299943529,
+          11.786663782376495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Thondernad",
+        "SUB_DIST": "Mananthavady",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.86556259859998,
+          11.755082529989988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Kidanganad",
+        "SUB_DIST": "Sulthanbathery",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.25517224736008,
+          11.733453765599998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Nalloornad",
+        "SUB_DIST": "Mananthavady",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.00793024394493,
+          11.771000602637612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Edavaka",
+        "SUB_DIST": "Mananthavady",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.9689250841592,
+          11.778096996438048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Cherukottur",
+        "SUB_DIST": "Mananthavady",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.06434839247957,
+          11.76556969348773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Panamaram",
+        "SUB_DIST": "Mananthavady",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.07912906807331,
+          11.748385578509177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Irulam",
+        "SUB_DIST": "Sulthanbathery",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.20839751098357,
+          11.732569917786886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Nadavayal",
+        "SUB_DIST": "Sulthanbathery",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.12676857205022,
+          11.756597815732219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Kanjirangad",
+        "SUB_DIST": "Mananthavady",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8973859925449,
+          11.74905150173133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Anchukunnu",
+        "SUB_DIST": "Mananthavady",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.03814792347838,
+          11.720022475582047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Porunnanore",
+        "SUB_DIST": "Mananthavady",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.99318655601593,
+          11.726251617131453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Vellamunda",
+        "SUB_DIST": "Mananthavady",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.94798378562679,
+          11.717513997493041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Kaniambetta",
+        "SUB_DIST": "Vythiri",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.09845739102053,
+          11.69528320897959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Poothadi",
+        "SUB_DIST": "Sulthanbathery",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.13566405679995,
+          11.711297053200001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Kuppadithara",
+        "SUB_DIST": "Vythiri",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.00917772738201,
+          11.70779726317596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Purakkadi",
+        "SUB_DIST": "Sulthanbathery",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.16512573842319,
+          11.671239450622407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Kuppadi",
+        "SUB_DIST": "Sulthanbathery",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.29751198549441,
+          11.674040552307694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Padinharethara",
+        "SUB_DIST": "Vythiri",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.95865150516326,
+          11.68325879100892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Krishnagiri",
+        "SUB_DIST": "Sulthanbathery",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.18972171221242,
+          11.660124873584067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Noolpuzha",
+        "SUB_DIST": "Sulthanbathery",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.3222777058639,
+          11.659485931727753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Kottathara",
+        "SUB_DIST": "Vythiri",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.04668335009282,
+          11.666167446315804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Sulthanbathery",
+        "SUB_DIST": "Sulthanbathery",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.2461073008955,
+          11.663354059253736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Muttil North",
+        "SUB_DIST": "Vythiri",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.10590314151257,
+          11.660124520588235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Kavumannam",
+        "SUB_DIST": "Vythiri",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.9997866936449,
+          11.643454468598128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Thariyode",
+        "SUB_DIST": "Vythiri",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.95521070536584,
+          11.625729587804871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Vengappally",
+        "SUB_DIST": "Vythiri",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.04604573445162,
+          11.630613442935488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Ambalavayal",
+        "SUB_DIST": "Sulthanbathery",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.21044234198673,
+          11.625919354966888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Nenmeni",
+        "SUB_DIST": "Sulthanbathery",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.26195511666667,
+          11.62874126583334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Muttil South",
+        "SUB_DIST": "Vythiri",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.14192281443904,
+          11.626380097902437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Kalpetta",
+        "SUB_DIST": "Vythiri",
+        "TYPE": "Town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.07779188535036,
+          11.615805580414014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Cheeral",
+        "SUB_DIST": "Sulthanbathery",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.30901952644292,
+          11.610648456644292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Achooranam",
+        "SUB_DIST": "Vythiri",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.02427112612435,
+          11.596676394114843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Thrikkaipatta (part)",
+        "SUB_DIST": "Vythiri",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.13806854032084,
+          11.596086655989305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Thomattuchal",
+        "SUB_DIST": "Sulthanbathery",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.20293388422537,
+          11.58705711823944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Pozhuthana",
+        "SUB_DIST": "Vythiri",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.01048542515213,
+          11.57709240310344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Muppainad",
+        "SUB_DIST": "Vythiri",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.18212307569227,
+          11.5319373783077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Chundale",
+        "SUB_DIST": "Vythiri",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.05251542576273,
+          11.572179707288134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Kottappadi (part)",
+        "SUB_DIST": "Vythiri",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.1077052199288,
+          11.541378758861208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Kunnathidavaka",
+        "SUB_DIST": "Vythiri",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.04376443823529,
+          11.531585441911762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Vellarimala",
+        "SUB_DIST": "Vythiri",
+        "TYPE": "Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.15664380951054,
+          11.503553859597902
+        ]
+      }
+    }
+  ]
+}

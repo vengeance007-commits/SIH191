@@ -1,9 +1,28 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
+import { supabase } from "../lib/supabaseClient";
 import { Search, ArrowRight } from "lucide-react";
 import { habitations } from "../data/mockData";
 import HabitationDetails from "../components/habitation/HabitationDetails";
 export default function Habitations(){
  const [q,setQ]=useState(""); const [selected,setSelected]=useState<typeof habitations[number]|null>(null);
+ const [data, setData] = useState<typeof habitations>([]);
+
+useEffect(() => {
+  const fetchHabitations = async () => {
+    const { data, error } = await supabase
+      .from("habitations")
+      .select("*");
+
+    if (error) {
+      console.error("Error fetching habitations:", error);
+    } else {
+      console.log("SUPABASE DATA:", data);
+      setData(data);
+    }
+  };
+
+  fetchHabitations();
+}, []);
  const filtered=habitations.filter(h=>(h.name+" "+h.location).toLowerCase().includes(q.toLowerCase()));
  return <div style={{minHeight:"100vh",background:"#f1f5f9",padding:24}}><h1>Vulnerable Habitations</h1><p style={{color:"#64748b"}}>Identify and prioritize habitations exposed to multi-hazard risk.</p>
  <div style={{position:"relative",maxWidth:500,margin:"18px 0"}}><Search size={17} style={{position:"absolute",left:12,top:12}}/><input value={q} onChange={e=>setQ(e.target.value)} placeholder="Search habitation or location..." style={{width:"100%",height:42,padding:"0 12px 0 38px",border:"1px solid #cbd5e1",borderRadius:9}}/></div>
